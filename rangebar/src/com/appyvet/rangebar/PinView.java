@@ -148,7 +148,7 @@ class PinView extends View {
         }
         //Set text size in px from dp
         int textSize = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP,
-                15, mRes.getDisplayMetrics());
+                10, mRes.getDisplayMetrics());
 
         // Creates the paint and sets the Paint values
         mTextPaint = new Paint();
